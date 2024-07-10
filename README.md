@@ -1,5 +1,5 @@
 # QRcode_generator_and_decoder
-🔒 *Admin & Buyer Login*: This  system boasts a secure login system, differentiating between administrators and buyers, providing access to product management and authentication features.
+🔒 *Admin & Buyer Login*: This  system boasts a secure login system, differentiating between administrators and buyers, providing access to product management and authentication features.and its irreversible 
 
 📦 *Product Authentication*: Admins can effortlessly add product details such as brand, ID, date of manufacture, batch number, and product type. This information converted into a single string then hashed and encrypted, resulting in a unique QR code that sets us apart from other systems.
 
