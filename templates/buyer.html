@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>2LQRcode</title>
+
+<!-- slider stylesheet -->
+<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+<!-- bootstrap core css -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.css') }}" />
+<!-- font awesome style -->
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/font-awesome.min.css') }}" />
+
+<!-- Custom styles for this template -->
+<link href="{{ url_for('static', filename='css/style.css') }}" rel="stylesheet" />
+<!-- responsive style -->
+<link href="{{ url_for('static', filename='css/responsive.css') }}" rel="stylesheet" />
+
+</head>
+
+<body>
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="header_top">
+
+      </div>
+      <div class="header_bottom">
+        <div class="container-fluid">
+          <nav class="navbar navbar-expand-lg custom_nav-container ">
+            <a class="navbar-brand" href="index.html">
+              <span>
+               
+              </span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class=""> </span>
+            </button>
+
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+     <br><br><br><br><br>
+    <!-- slider section -->
+    <section class="slider_section ">
+      <div class="container ">
+        <div class="row">
+          <div class="col-md-6 ">
+            <div class="detail-box">
+              <h1>
+                VERIFY THE PRODUCT<br>
+                <br>
+                
+              </h1>
+              <p>
+                
+              </p>
+
+
+    <div class="login-box">
+     <h2 style="color: red;"><a style="color: red;" href="#">Continue to Verify products</a></h2>
+
+        <h2>PLEASE  START CAMERA AND SHOW QR CODE</h2>
+<form action="{{ url_for('predict23') }}" method="post">
+    <button type="submit" class="btn btn-primary btn-block btn-large">START CAMERA</button>
+</form>
+    </div>
+
+
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="img-box">
+           
+              <img src="{{ url_for('static', filename='images/slider-img.png') }}" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end slider section -->
+  </div>
+
+ 
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end feature section -->
+
+
+
+
+  <!-- end info_section -->
+ <br><br><br><br><br>
+  <!-- footer section -->
+  <footer class="footer_section">
+    <div class="container">
+      
+    </div>
+  </footer>
+  <!-- footer section -->
+
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
+  </script>
+  <script src="js/custom.js"></script>
+  <!-- Google Map -->
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap"></script>
+  <!-- End Google Map -->
+
+
+</body>
+
+</html>
