@@ -21,7 +21,7 @@
 
     product_details = f"{brand}{product_id}{date_of_manufacture}{batch}{price}{product_type}"
 @ After that string will be converted into hash code
-# Generate a hash code using SHA-256 
+ Generate a hash code using SHA-256 
     hash_code = hashlib.sha256(product_details.encode()).hexdigest()
 
     #print(hashed_password)
